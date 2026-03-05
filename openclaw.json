@@ -1,0 +1,48 @@
+{
+  "logging": {
+    "level": "info"
+  },
+  "agent": {
+    "model": "anthropic/claude-sonnet-4-20250514",
+    "fallbackModel": "openai/gpt-4o",
+    "workspace": "./",
+    "thinkingDefault": "high",
+    "timeoutSeconds": 600,
+    "heartbeat": {
+      "every": "30m"
+    }
+  },
+  "tools": {
+    "exec": {
+      "enabled": true,
+      "policy": "standard"
+    },
+    "web_fetch": {
+      "enabled": true
+    },
+    "web_search": {
+      "enabled": true
+    },
+    "browser": {
+      "enabled": true
+    },
+    "apply_patch": {
+      "enabled": true
+    },
+    "diffs": {
+      "enabled": true
+    }
+  },
+  "session": {
+    "scope": "main",
+    "resetTriggers": ["/new", "/reset"],
+    "reset": {
+      "mode": "idle",
+      "idleMinutes": 10080
+    }
+  },
+  "env": {
+    "N8N_BASE_URL": "http://localhost:5678",
+    "N8N_API_BASE": "http://localhost:5678/api/v1"
+  }
+}
