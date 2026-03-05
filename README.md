@@ -235,6 +235,32 @@ All API calls require the `X-N8N-API-KEY` header for authentication.
 - Always reads current state before modifying (GET before PUT)
 - Shows diffs for all workflow updates
 
+## Security Verification
+
+This repository has been scanned and verified as **safe** by [VirusTotal](https://www.virustotal.com) — a trusted security service that aggregates results from 95+ antivirus engines and URL scanners.
+
+**Scan Result: ✅ 0/95 — No security vendors flagged this repository as malicious.**
+
+<p align="center">
+  <img src="virustotal-scan.png" alt="VirusTotal Scan Result — 0/95 Clean" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://www.virustotal.com/gui/url/39f98e29fb77117c25684fd0f9680dd4b64f6e4a94ec2ef78a050531be87dad0/detection">
+    🔗 View full VirusTotal report
+  </a>
+</p>
+
+| Detail | Value |
+|--------|-------|
+| **Scanned URL** | `https://github.com/samansalari/Openclaw-N8N` |
+| **Detection Ratio** | 0 / 95 |
+| **Community Score** | +1 👍 |
+| **Status** | 200 OK |
+| **Content Type** | text/html; charset=utf-8 |
+
+> All 95 security vendors — including BitDefender, CyRadar, AlienVault, CRDF, Dr.Web, and others — returned a **Clean** verdict.
+
 ## Author
 
 **Saman Salari** - Developer, Product Designer & AI Enthusiast
